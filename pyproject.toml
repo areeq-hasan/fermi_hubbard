@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "fermi-hubbard"
+version = "0.1.0"
+description = ""
+authors = ["Areeq Hasan <areeq.i.hasan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "fermi_hubbard"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.24.3"
+ipykernel = "^6.23.1"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
